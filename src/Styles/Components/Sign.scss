@@ -1,0 +1,125 @@
+.cadre_1 {
+    border: 1px rgba(170, 165, 165, 0.4) solid;
+    ;
+    width: 300px;
+    height: 350px;
+}
+
+.cadre_2 {
+    border: 1px rgba(170, 165, 165, 0.4) solid;
+    width: 300px;
+    display: flex;
+    font-size: 70%;
+    margin-top: 2%;
+}
+
+.sign {
+    display: flex;
+}
+
+.img1 {
+    margin-left: 20%;
+    width: 70%;
+}
+
+.img2 {
+    margin-left: -23%;
+    margin-top: 2%;
+    position: absolute;
+    z-index: 4;
+    width: 18.5%;
+}
+
+.leftbox {
+    width: 50%;
+}
+
+.rightbox {
+    width: 50%;
+}
+
+
+.button {
+    background-color: rgba(var(--d69, 0, 149, 246), 1);
+    border: 1px black solid;
+    color: white;
+    position: relative;
+    margin-left: 9%;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+}
+
+.or {
+    text-align: center;
+    color: grey;
+}
+
+.facebook {
+    color: #385185;
+    margin-left: 5%;
+    text-decoration: none;
+    padding-left: 15%;
+}
+
+.mdp_oublié {
+    text-decoration: none;
+    margin-left: 35%;
+    font-size: 80%;
+    color: black;
+}
+
+
+.appli {
+    margin-left: 13%;
+    font-size: 80%;
+}
+
+.Titre {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+
+.store {
+    width: 23%;
+}
+
+.play {
+    width: 23%;
+    margin-left: 5px;
+}
+
+.app {
+    margin-left: 1.5%;
+}
+
+
+.or {
+    display: flex;
+    flex-direction: row;
+}
+
+.or:before,
+.or:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #DBDBDB;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.inscription {
+    display: flex;
+    margin-left: 15%;
+}
+
+.inscription_link {
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 5px;
+    color: #0095F6;
+}
